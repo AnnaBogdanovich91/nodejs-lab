@@ -1,0 +1,17 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "main": "ws_server.js",
+  "dependencies": {
+    "mime-types": "^2.1.23",
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ws_server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

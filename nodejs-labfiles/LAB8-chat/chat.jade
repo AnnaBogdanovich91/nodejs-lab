@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .container
+    div.jumbotron
+      h1.display-4 Welcome
+      br
+      form#publish
+        input#name.form-control(type='text', placeholder='Type your message' name='message')
+        br
+        button.btn.btn-primary(type='submit') Send
+    ul#messages.list-group
+
+  script(src="../public/javascripts/client.js")
